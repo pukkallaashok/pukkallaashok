@@ -10,11 +10,11 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
-  const name = "I'M Ashok";
+  const name = "I'm Ashok";
 
   return (
     <div
-      className="noselect w-fit h-fit text-grayscale-50 absolute z-10 flex flex-col justify-center items-center rounded-[50%]"
+      className="noselect w-fit h-fit text-grayscale-50 absolute z-10 flex flex-col justify-center items-center rounded-[50%] pb-6"
       id="repulse-div"
     >
       <LazyMotion features={domAnimation} strict>
@@ -22,15 +22,15 @@ const HeroText = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, type: "spring" }}
-          className="text-center flex justify-center items-center flex-col opacity-100 text-7xl sm:text-9xl cursor-default"
-          style={{ fontFamily: "SuperMario" }}
+          className="text-center flex  flex-col opacity-100 text-5xl sm:text-8xl"
+          style={{ fontFamily: "serif" }}
         >
           <m.span
             initial={{ x: 0 }}
             whileInView={{ x: 10 }}
             transition={{ duration: 0.6, type: "spring" }}
           >
-            hello
+          Hello!
           </m.span>
           <m.div
             initial={{ x: 100 }}
@@ -52,7 +52,9 @@ const HeroText = () => {
               );
             })}
           </m.div>
+          <h4 className="py-4 text-5xl">A Web Developer</h4>
         </m.h1>
+        
       </LazyMotion>
     </div>
   );
