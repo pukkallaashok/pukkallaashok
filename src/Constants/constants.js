@@ -116,7 +116,7 @@ const projects = [
     description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwrjJkiThMRUBimD6t5zfkboDeOZQtMkd9Uw&usqp=CAU://i.pinimg.com/564x/8a/29/17/8a2917fba41248db5966292304433184.jpg",
     source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    demo_link: 'https://main.d2sk3i81cumiai.amplifyapp.com/',
   },
   {
     name: 'Pawsitive',
